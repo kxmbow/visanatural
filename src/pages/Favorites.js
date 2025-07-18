@@ -32,7 +32,7 @@ const Favorites = (props) => {
                 <hr />
                 <div className={`animate__animated ${switchView? 'animate__fadeInUp' : 'animate__fadeIn'}`} style={{width:'100%',justifyContent:'center',alignItems:'center',marginTop:'3%'}}>
                     <div className="row">
-                        <div className="col-3">
+                        <div className="col-3" onClick={() => alert('Leads to a page similar to the one after search with this component')}>
                             <img 
                                 className="animate__animated animate__fadeIn favCard"
                                 src={require('../demo.png')} 
@@ -47,7 +47,7 @@ const Favorites = (props) => {
                             </div>
                         </div>
 
-                        <div className="col-3">
+                        <div className="col-3" onClick={() => alert('Leads to a page similar to the one after search with this component')}>
                             <img 
                                 className="animate__animated animate__fadeIn favCard"
                                 src={require('../demo.png')} 
@@ -62,7 +62,7 @@ const Favorites = (props) => {
                             </div>
                         </div>
 
-                        <div className="col-3">
+                        <div className="col-3" onClick={() => alert('Leads to a page similar to the one after search with this component')}>
                             <img 
                                 className="animate__animated animate__fadeIn favCard"
                                 src={require('../demo.png')} 

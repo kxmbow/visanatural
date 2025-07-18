@@ -60,10 +60,13 @@ const Search = (props) => {
                             className={`sendButton ${switchView&&'cancel'} material-symbols-outlined text-center`}  
                             onClick={() => {
                                 
+                                
                                 if(switchView){
                                     setSearch('')
                                     setCodeValue(1)
                                 } 
+
+                                
                                 setSwitchView(!switchView)
                             }}
                         >

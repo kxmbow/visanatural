@@ -46,7 +46,7 @@ const Navbar = (props) => {
                     
                 </div>
 
-                <div class="card-inside mb-3">
+                <div class="card-inside mb-3" onClick={() => alert('Leads to a page with the components generated. Last 10 history')}>
                     <div class="row">
                         <div class="col-12 text-center">
                             <p className="mb-0 ellipsis">Create a login button with a purple background</p>
@@ -54,7 +54,7 @@ const Navbar = (props) => {
                     </div>
                 </div>
 
-                <div class="card-inside mb-3">
+                <div class="card-inside mb-3" onClick={() => alert('Leads to a page with the components generated. Last 10 history')}>
                     <div class="row">
                         <div class="col-12 text-center">
                             <p className="mb-0 ellipsis">Can you help me build a React component for a login form? I want it to have email and password inputs, and a submit button that turns blue when hovered</p>
@@ -62,7 +62,7 @@ const Navbar = (props) => {
                     </div>
                 </div>
 
-                <div class="card-inside mb-3">
+                <div class="card-inside mb-3" onClick={() => alert('Leads to a page with the components generated. Last 10 history')}>
                     <div class="row">
                         <div class="col-12 text-center">
                             <p className="mb-0 ellipsis">I need a responsive card component with an image at the top, a title, some text, and a button at the bottom. Can you write the JSX and CSS for it?</p>
